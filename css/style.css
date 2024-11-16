@@ -108,3 +108,27 @@ h2 {
     flex-direction: column;
     justify-content:flex-start;
 }
+.projects {
+    display: flex;
+    justify-content: space-around;
+}
+.black {
+    border: 1px solid black;
+}
+h4 {
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+@media all and (max-width: 760px){
+   .image {
+    margin-left: 10px;
+   }
+   .blockOne {
+    width: 235px;
+   }
+   .blackTwo {
+    width: 507px;
+   }
+
+}
