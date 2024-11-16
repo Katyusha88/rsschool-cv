@@ -1,0 +1,110 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.blockOne {
+    width: 400px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.8500);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.blockTwo {
+    width: 800px ;
+    color: rgba(0, 0, 0, 0.8500);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: gold;
+    list-style-type: none;
+    padding: 10px 0;
+    margin-top: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+hr {
+    width: 90%;
+    border: 1px solid gold;    
+}
+.image {
+    /* padding: 10px; */
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    box-shadow: 0 5px 20px 0 rgba(255, 217, 0, 0.868);
+}
+h1 {
+    text-align: center;
+}
+.myName {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+.aboutMy {
+    margin: 30px 80px;
+    font-size: 22px;
+}
+.logoSchool {
+    background-color: gold;   
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.year {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+}
+.myEducation {
+    font-size: 22px;
+    margin-left: 40px;
+}
+.myContact {
+    font-size: 20px;
+    line-height: 50px;
+}
+.yearCV {
+    font-size: 28px;
+}
+pre {
+    background-color: rgba(255, 217, 0, 0.126);
+    width: 80%;
+    margin-left: 80px;
+}
+#footer {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+h2 {
+    margin-left: 80px;
+    font-size: 28px;
+}
+#main {
+    border-right: 1px solid black;
+}
+#header {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+#information {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}

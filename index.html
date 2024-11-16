@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header wrapper" id="header">
+        <div class="blockOne" id="image">
+            <img class="image" src="./IMG_20220623_162520.jpg" alt="my foto" width="180px"/>
+        </div>
+        <div class="blockTwo">
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="code">Code Example</a>
+                </li>
+                <li>
+                    <a href="education">Education</a>
+                </li>
+                <li>
+                    <a href="lang">Languages</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Ekaterina Chumak</h1>
+        <p class="myName">Frontend Developer</p>
+        <hr>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="header wrapper" id="main">
+        <div class="blockOne" id="information">
+            <section>
+                <h2 id="contact">Contact:</h2>
+                <ul class="myContact">
+                    <li>
+                        Location: Israel
+                    </li>
+                    <li>
+                        E-mail: chumakkatrina@gmail.com
+                    </li>
+                    <li>
+                        LinkedIn: www.linkedin.com/in/ekaterina-chumak
+                    </li>
+                    <li>
+                        GitHub: Katyusha88
+                    </li>
+                </ul>
+                <hr>
+            </section>
+            <section>
+                <h2 id="skills">Skills:</h2>
+                <ul class="myContact">
+                    <li>HTML, CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>Figma</li>
+                    <li>Git, GitHub</li>
+                    <li>GSAP</li>
+                    <li>Node.js</li>
+                    <li>React</li>
+                </ul>
+            </section>
+        </div>
+        <div class="blockTwo">
+            <section>
+                <h2 id="about">About Me:</h2>
+                <p class="aboutMy">My name is Ekaterina Chumak. Fullstek developer with an economic education. I develop easy-to-use, unique sites with fast loading and adaptability for mobile devices. I constantly improve my skills, learn new things.</p>
+                <hr>
+            </section>
+            <section>
+                <h2 id="code">Code Example:</h2>
+                <pre>
+                  To-Do-List 
+
+                ``` 
+                const input = document.querySelector('.input');
+                const btn = document.querySelector('.btn');
+                const list = document.querySelector('.list');
+    
+                btn.addEventListener('click', function(){
+                const item = document.createElement('li');
+                item.innerText = input.value;
+                item.classList.add('style');
+                list.appendChild(item);
+                input.value='';
+    
+                item.addEventListener('click', function(){
+                    item.classList.add('heck');
+                })
+                item.addEventListener('dblclick', function(){
+                    list.removeChild(item);
+                })
+                })
+                ```
+                </pre>
+                <hr>
+            </section>
+            <section>
+                <h2 id="education">Education:</h2>
+                <ul class="myEducation">
+                    <li>Courses - Can She Code</li>
+                    <li>University - St. Petersburg State University of Water Communications</li>
+                </ul>
+                <hr>
+            </section>
+            <section>
+                <h2 id="lang">Languages:</h2>
+                <ul class="myEducation">
+                    <li>English - Beginner</li>
+                    <li>Hebrew - Lower Intermediate</li>
+                    <li>Russian - Native</li>
+                </ul>
+                <hr>
+            </section>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper" id="footer">
+            <div class="blockOne logo">
+                <a href="https://rs.school/courses/javascript">
+                    <img class="logoSchool" src="./rs-school-logo.svg" alt="logo school" width="150px"/>
+                </a>        
+            </div> 
+            <div class="blockTwo year"> 
+                <a href="https://github.com/Katyusha88">
+                    <img src="./загруженное.png" alt="my github" width="80px"/>
+                </a>
+                <p class="yearCV">© 2024 Ekaterina Chumak</p>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
